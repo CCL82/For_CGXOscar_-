@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>送给 CFC_CXG 的网页</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 50px;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 40px;
+    }
+    button {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>送给 CFC_CXG 的小网页</h1>
+
+  <p>请选择你的心情：</p>
+  
+  <button onclick="showHappy()">开心时打开</button>
+  <button onclick="showSad()">伤心时打开</button>
+  <button onclick="showMiss()">想我时打开</button>
+
+  <script>
+    function showHappy() {
+      alert(
+        "亲爱的 CFC_CXG：\n\n" +
+        "当你开心时，希望与你分享这份快乐。记得把喜悦传递给身边的人，" +
+        "也别忘了我永远为你喝彩。祝你日常顺遂，笑容常在！"
+      );
+    }
+
+    function showSad() {
+      alert(
+        "亲爱的 CFC_CXG：\n\n" +
+        "当你伤心时，请记得你并不孤单。我会在远方默默支持你，" +
+        "倾听你的一切。希望这段话能带给你一点安慰，让悲伤逐渐消散。"
+      );
+    }
+
+    function showMiss() {
+      alert(
+        "亲爱的 CFC_CXG：\n\n" +
+        "当你想我时，希望你能感受到我的关怀和思念。虽不能时时相伴，" +
+        "但彼此间的牵挂不会消失。愿这份想念化为力量，温暖你的每一天。"
+      );
+    }
+  </script>
+</body>
+</html>
